@@ -1,0 +1,32 @@
+- React là thư viện sử dụng UI (User Interface) để xây dựng trang web
+- React xoay quanh các Component
+- React thì không được tạo ra để thay thế HTML, CSS, Javascript nhưng sẽ gói 3 thứ kia vào 1 component để tái sử dụng
+- React được sinh ra để tạo ra 1 trang web có tính phức tạp mà sẽ làm đơn giản hóa thao tác
++ Component có 2 đặc điểm quan trọng là:
+	- Reuse: tính tái sử dụng lại code
+	- Separation of concerns: tạo ra các component khác nhau với các chức năng khác nhau
+
+*Imperative là lập trình bằng cách ra "mệnh lệnh" cho trình duyệt để tạo ra các thuộc tính của web
+*Declarnative là lập trình mà trình duyệt sẽ theo sự thay đổi của UI để hiển thị
+
+*Để sử dụng React cần cài 2 tool: Nodejs
+	- Cách kiểm tra đã cài nodejs hay chưa: vào CMD -> gõ node -v, tải nodejs ở nodejs.org với ver 14.16.1
++ Nodejs là 1 môi trường cho phép sử dụng javascript trên local pc, thay vì sử dụng javascript trên trình duyệt
+- Sau khi cài xong nodejs, vào thư mục chúng ta lưu source code, trên thanh địa chỉ gõ cmd, gõ tiếp câu lệnh
+	npx create-react-app [tên chương trình chúng ta muốn tạo] 
+	- npx là 1 câu lệnh của nodejs để cài các package(gói chương trình) còn thiếu ở trên máy
+- Sau đó chờ cho quá trình khởi tạo chương trình kết thúc, ra câu "Happy hacking" là xong
+- Lưu ý là tên user trên máy thì không được có dấu cách hoặc có dấu nếu không sẽ không cài được nodejs
+- Sau khi quá trình khởi tạo chương trình xong, trên cmd, cd đến thư mục chứa chương trình nodejs, gõ câu lệnh
+	npm start
+- Trong lúc chạy nodejs trên trình duyệt thì không được tắt terminal đi, còn nếu muốn tắt tiến trình đi thì ấn vào thùng rác
+ở cửa sổ terminal trên vscode
+
+//với React thì sẽ code trong folder chứa chương trình của nodejs và React, vì có 1 số chức năng mà không theo quy chuẩn của javascript bình thường, phải có các tool của nodejs và React mới code đc
+//với JSX thì khi return sẽ chỉ trả duy nhất 1 thẻ nằm ngoài cùng
+//<></> đây là thẻ rỗng (fragment), với việc trong React component thì sẽ chỉ trả 1 thẻ nằm ngoài cùng thì nếu không muốn
+cta có thể sử dụng thẻ rỗng để show ra các thẻ chúng ta viết ra
+
+//styling trong React thì có thể đặt class cho thẻ đó (và phải chắc chắn là đã import file css đó vào file js chúng ta đang sử dụng React)
+
+

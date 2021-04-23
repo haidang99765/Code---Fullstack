@@ -1,0 +1,38 @@
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+    background-color: #4b4b4b;
+}
+
+.expense-item-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 1rem;
+}
+
+.expense-item-description > h2 {
+    color: white;
+    flex: 1;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.expense-item-price {
+    color: white;
+    background-color: purple;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/*flex: 1 là viết tắt của flex-grow, flex-basis, flex-shrink*/

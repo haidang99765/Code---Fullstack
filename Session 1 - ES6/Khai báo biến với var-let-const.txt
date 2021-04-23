@@ -1,0 +1,2 @@
+- const được sử dụng để khai báo 1 biến hằng (hằng số), khi khai báo 1 biến với const có kèm giá trị thì chúng ta sẽ không thể gán giá trị khác cho biến này
+- var thì chúng ta phải khai báo đầu tiên, nếu sử dụng biến đó trước khi khai báo thì sẽ lỗi, còn let thì sẽ nâng cấp của var, và sử dụng let nhiều hơn, let có từ ES6
