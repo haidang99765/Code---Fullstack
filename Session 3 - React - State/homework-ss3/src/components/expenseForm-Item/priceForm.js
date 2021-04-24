@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const PriceForm = (props) => {
-    const [price, setPrice] = useState(0);
+    const [price, setPrice] = useState();
 
     const onChangePrice = (price) => {
         setPrice(price.target.value);
