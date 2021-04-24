@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ExpenseFilter = (props) => {
-    const [filter, setFilter] = useState(0);
+    const [filter, setFilter] = useState();
     const onChangeFilter = (filter) => {
         console.log(filter.target.value);
     };
